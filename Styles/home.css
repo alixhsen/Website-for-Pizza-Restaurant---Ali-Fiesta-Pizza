@@ -1,0 +1,142 @@
+body {
+    font-size: large;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#title-span{
+    color: red;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+#about-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videopizza{
+    border-radius: 30px;
+    box-shadow: inset;
+}
+
+.about-item {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.fab,
+.fas {
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.contact-header {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-header a {
+    font-size: 22px;
+}
+
+.fab.fa-facebook,
+.fab.fa-instagram,
+.fas.fa-mobile-alt {
+    color: black;
+}
+
+.fab.fa-facebook:hover,
+.fab.fa-instagram:hover,
+.fas.fa-mobile-alt:hover {
+    color: red;
+}
+
+#menu-button {
+    padding: 10px 20px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    border: solid 2px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Whitney SSm', sans-serif;
+}
+
+#menu-button:hover {
+    background-color: white;
+    color: red;
+}
+
+#beirut,
+#jnoub,
+#tyre {
+    display: flex;
+    align-items: center;
+}
+
+#beirut i,
+#jnoub i,
+#tyre i {
+    font-size: 30px;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: small;
+    text-align: center;
+  }
+header {
+    background-image: url('header-photo.png');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    height: fit-content;
+}
+
+  
+nav{
+    background-color:white;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+
+  }
+  ul{
+    list-style-type: none;
+    margin: 5px;
+    margin-right: 50px;
+    padding: 10px;
+    display: flex;
+    gap: 40px;
+    justify-content: right;
+  }
+  li{
+    display:block
+  }
+  
+a {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+a:hover{
+    color: red;
+}

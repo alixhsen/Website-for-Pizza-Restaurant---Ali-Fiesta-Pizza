@@ -1,0 +1,53 @@
+#header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#submit-button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: solid 2px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Whitney SSm', sans-serif;
+}
+
+#submit-button:hover {
+    background-color: white;
+    color: red;
+}
+
+.title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: small;
+    text-align: center;
+}
+
+.fas.fa-arrow-left {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: solid 2px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.fas.fa-arrow-left:hover {
+    background-color: white;
+    color: red;
+}
